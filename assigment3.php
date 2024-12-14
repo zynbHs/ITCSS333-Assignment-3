@@ -79,3 +79,6 @@ records.forEach(record => {
     tableContainer.appendChild(tableRow);
 });
 }
+
+// Ensure the data fetching starts when the page is fully loaded
+document.addEventListener('DOMContentLoaded', getStudentData); </script>
